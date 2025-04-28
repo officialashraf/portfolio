@@ -8,7 +8,7 @@ const Home = ({ setOpen, open }) => {
     <>
       <section
         id="home"
-        className=" min-h-screen flex flex-col md:flex-row justify-between items-center px-4 py-8"
+        className="min-h-screen flex flex-col md:flex-row justify-between items-center px-4 py-8"
       >
         <button
           onClick={() => setOpen(!open)}
@@ -18,12 +18,13 @@ const Home = ({ setOpen, open }) => {
         </button>
         <div className=" flex flex-col items-center justify-center w-full text-white">
           <p className="text-4xl font-bold text-white  mt-2  transition-all duration-500 hover:scale-150 hover:animate-bounce active:scale-125">
-            
             Nafeesh Kurreshi
           </p>
-<span className="text-2xl font-bold text-gray-300 mt-2 transition-all duration-500 hover:scale-150 animate-pulse active:scale-125">I'm a</span>
+          <span className="text-2xl font-bold text-gray-300 mt-2 transition-all duration-500 hover:scale-150 animate-pulse active:scale-125">
+            I'm a
+          </span>
           <p className="text-4xl font-bold text-white  mt-2  transition-all duration-500 hover:scale-150 hover:animate-bounce active:scale-125">
-             Full Stack Developer
+            Full Stack Developer
           </p>
 
           <div className="flex gap-4 mt-8">
@@ -33,13 +34,11 @@ const Home = ({ setOpen, open }) => {
               </a>
             </button>
             <button className="bg-[#040B14] hover:bg-white hover:text-[#040B14] cursor-pointer text-white px-4 border-white border-2">
-              <NavLink to="/contect">
-              Contect
-              </NavLink>
+              <NavLink to="/contect">Contect</NavLink>
             </button>
           </div>
         </div>
-        <div className=" w-full flex justify-center items-center ">
+        <div className=" w-full flex justify-center items-center min-h-screen">
           <img
             src={mypic}
             alt="my-pic"

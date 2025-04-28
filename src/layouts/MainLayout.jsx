@@ -24,13 +24,16 @@ useEffect(()=>{
 
 
 
+
+
   return (
+    
     <div className="flex min-h-screen text-white" style={{backgroundColor:"#040B14"}}>
     
       <div className={`bg-gray-900  z-40  transition-all duration-300 ${open ? 'block' : 'hidden'} md-block  md:relativel  w-64` }>
-        <SideBar />
+        <SideBar setOpen={setOpen} />
       </div>
-      <main className="flex-1 bg-gray-400">
+      <main className="flex-1 bg-[#040B14] text-white">
         {/* <Outlet /> */}
         <Home open={open} setOpen={setOpen}/>
         <About/>

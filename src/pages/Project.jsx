@@ -2,8 +2,8 @@ import React from "react";
 
 const Project = () => {
   return (
-    <section id="project" className="min-h-screen px-4 md:px-8 lg:px-12 bg-[#040B14]">
-      <h1 className="text-center text-2xl md:text-3xl mb-6 font-bold ">Projects</h1>
+    <section id="project" className="px-4 md:px-8 lg:px-12 min-h-screen mb-8">
+      <h1 className="text-center text-4xl mb-8 font-bold">Projects </h1>
       <div className="grid gap-10 md:grid-cols-3 lg:grid-cols-3">
         <div className="bg-[#101828] p-2 rounded-xl shadow-md shadow-white hover:scale-105 transition-all duration-300">
           <h2 className="text-xl font-bold text-white mb-2">

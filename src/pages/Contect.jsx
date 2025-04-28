@@ -7,11 +7,11 @@ const Contect = () => {
   return (
     <section
       id="contect"
-      className="min-h-screen text-white px-4 md:px-8 lg:px-12 bg-[#040B14]"
+      className="min-h-screen  px-4 md:px-8 lg:px-12"
     >
-      <h1 className="text-center text-2xl md:text-3xl font-bold pt-8">Contect</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2">
-        <div className="min-h-screen flex items-center justify-center">
+      <h1 className="text-center text-4xl mb-8 font-bold">Contect </h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+        <div className="flex items-center justify-center mb-8">
           <div className=" p-8 rounded-xl flex flex-col gap-5 shadow-xl/30 shadow-white w-full max-w-md" style={{backgroundColor:"#101828"}}>
             <div>
               <SlLocationPin size={50} color="white" />
@@ -36,7 +36,7 @@ const Contect = () => {
           </div>
         </div>
 
-        <div className="min-h-screen flex items-center justify-center">
+        <div className="flex items-center justify-center mb-8 ">
           <form
             className="p-8 rounded-xl shadow-xl/30  shadow-white w-full max-w-md"
             action="https://formsubmit.co/nafeeskurreshi473@gmail.com"
@@ -49,6 +49,7 @@ const Contect = () => {
               </label>
               <input
                 type="text"
+                name="name"
                 placeholder="Enter your fullname"
                 className="w-full p-3 border-2 border-white rounded-md focus:outline-none focus:ring-amber-500"
               />
@@ -59,6 +60,7 @@ const Contect = () => {
               </label>
               <input
                 type="text"
+                name="email"
                 placeholder="Enter Your Email"
                 className="w-full p-3 border-2 border-white rounded-md focus:outline-none "
               />
@@ -67,7 +69,7 @@ const Contect = () => {
               <label className="block mb-2 text-lg font-medium text-white">
                 Massage
               </label>
-              <textarea className="w-full p-8 border-2 border-white rounded-md"></textarea>
+              <textarea name="massage" className="w-full p-8 border-2 border-white rounded-md"></textarea>
             </div>
             <div>
               <button

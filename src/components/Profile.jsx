@@ -16,16 +16,24 @@ const Profile = () => {
         <h1 className='text-2xl font-bold'>Nafeesh Kurreshi</h1>
         <div className='flex gap-4 m-3 text-center justify-center cursor-pointer'>
             <div className='hover:bg-blue-400 p-2 rounded-full bg-gray-600'>
+              <a href='https://github.com/nafeesh473' target='_blank' >
             <FaGithub/>
+              </a>
             </div>
             <div className='hover:bg-blue-400 p-2 rounded-full bg-gray-600'>
+              <a href='https://www.linkedin.com/in/nafeesh-kurreshi-a7a202250/' target='_blank' rel="noopener noreferrer">
             <FaLinkedin/>
+              </a>
             </div>
             <div className='hover:bg-blue-400 p-2 rounded-full bg-gray-600'>
+              <a href='https://www.facebook.com/NafeeshKurreshi/' target='_blank'>
             <FaFacebookSquare/>
+              </a>
             </div>
             <div className='hover:bg-blue-400 p-2 rounded-full bg-gray-600'>
+              <a href='https://www.instagram.com/mr_nafeesh_kurreshi_' target='_blank'>
             <BsInstagram/>
+              </a>
 
             </div>
             

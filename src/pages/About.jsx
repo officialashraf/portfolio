@@ -5,9 +5,10 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen bg-[#040B14] text-white p-6 md:p-12"
+      className="p-6 md:p-12 min-h-screen"
     >
-      <h1 className="text-center text-3xl font-bold mb-6">About Me</h1>
+     
+      <h1 className="text-center text-4xl mb-8 font-bold">About</h1>
       <div className="max-w-8xl mx-auto flex flex-col md:flex-row gap-10 items-center">
         <div className="flex-1">
           <img

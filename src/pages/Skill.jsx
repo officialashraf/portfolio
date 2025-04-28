@@ -14,19 +14,20 @@ import { FaGithub } from "react-icons/fa";
 import { SiPostman } from "react-icons/si";
 import Icon from '@mdi/react';
 import { mdiMaterialUi } from '@mdi/js';
+import { NavLink } from "react-router-dom";
 
 const Skill = () => {
   return (
-    <section id="skill" className="bg-[#040B14] text-white min-h-screen text-center">
+    <section id="skill" className="text-center min-h-screen">
       <h1 className="text-center text-4xl mb-8 font-bold">My Skills </h1>
       
       <div className="flex flex-wrap gap-6 justify-center text-center items-center">
         <div>
           HTML
-          <a href="https://www.w3schools.com/Html/" target="_blank">
+          <NavLink to="https://www.w3schools.com/Html/" target="_blank">
 
           <FaHtml5 size={150} color="#E14F25" className="transition-all duration-500 hover:scale-150" />
-          </a>
+          </NavLink>
         </div>
         <div>
           CSS

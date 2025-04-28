@@ -1,0 +1,12 @@
+ul li{
+display: flex;
+align-items: center;
+justify-content: start;
+margin: 5px;
+padding: 10px;
+gap: 5px;
+    
+}
+ul li:hover{
+color: #149DDD;
+}

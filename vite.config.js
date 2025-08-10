@@ -8,12 +8,18 @@ export default defineConfig({
     tailwindcss(),
     react()
     
+    
   ],
   server:{
     host: true,
     port: 5173, 
 
-  }
+  },
+    fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
+      },
+
 })
 
 

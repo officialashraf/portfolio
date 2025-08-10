@@ -42,7 +42,7 @@ const Home = ({ setOpen, open }) => {
           <img
             src={mypic}
             alt="my-pic"
-            className="h-100 w-100 shadow-xl/50  shadow-white rounded-full border-4 border-[#E1E1E2] object-fill max-w-sm mx-auto "
+            className="h-100 w-100 shadow-xl/50  shadow-white rounded-full border-4 border-[#E1E1E2] object-cover max-w-sm mx-auto "
           />
         </div>
       </section>

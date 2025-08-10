@@ -20,7 +20,7 @@ const About = () => {
         <div className="flex-1 space-y-8">
           <p className="text-lg">
             Hi, I'm{" "}
-            <span className="font-bold text-amber-500">Nafees Qureshi</span>, a
+            <span className="font-bold text-amber-500">Nafeesh Kurreshi</span>, a
             dedicated{" "}
             <span className="font-bold text-amber-500">
               MERN Stack Developer

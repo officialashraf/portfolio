@@ -1,6 +1,4 @@
-import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/favicon.ico'
+import React from "react";
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import MainLayout from './layouts/MainLayout'
@@ -12,7 +10,7 @@ import Skill from './pages/Skill'
 import NoteFound from './pages/NoteFound'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
